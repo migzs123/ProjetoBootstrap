@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+body{
+    font-family: 'Montserrat', sans-serif!important;
+    padding: 0;
+}
+.textPurple{
+    color:rgb(113, 89, 193)!important;
+}
+.textPurple:hover
+{
+    color:rgb(76, 60, 131)!important;
+}
+.purple{
+    color:rgb(113, 89, 193)!important;
+}
+.bold{
+    font-weight: bolder!important;
+}
+.xlargesize
+{
+    font-size: xx-large!important;
+}
+.largesize{
+    font-size: larger!important;
+}
+.dropshadow
+{
+    box-shadow: rgb(113, 89, 193) 0.5px 0.3px 0.5px 0.2px;
+    
+}
