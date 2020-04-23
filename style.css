@@ -28,3 +28,30 @@ body{
     box-shadow: rgb(113, 89, 193) 0.5px 0.3px 0.5px 0.2px;
     
 }
+button
+{
+    border:0px;
+    background-color: rgb(113, 89, 193);
+    padding: 4px 10px;
+    border-radius: 5px!important;
+    color: white;
+}
+button:hover
+{
+    border:0px;
+    background-color: rgb(84, 66, 143);
+    padding: 4px 10px;
+    border-radius: 5px!important;
+    color: white;
+}
+#butao
+{
+    align-items: center!important;
+}
+#jumbo
+{
+  
+    text-align: center;
+    margin-top: 40px;
+    color:rgb(113, 89, 193);
+}
