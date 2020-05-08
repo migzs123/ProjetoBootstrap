@@ -13,6 +13,9 @@ body{
 .purple{
     color:rgb(113, 89, 193)!important;
 }
+.bg-primario{
+    background-color:rgb(113, 89, 193)!important;
+}
 .bold{
     font-weight: bolder!important;
 }
@@ -52,6 +55,14 @@ button:hover
 {
   
     text-align: center;
-    margin-top: 40px;
     color:rgb(113, 89, 193);
+}
+.card-product{
+    -webkit-box-shadow: 4px 0px 98px -31px rgba(0,0,0,0.13);
+-moz-box-shadow: 4px 0px 98px -31px rgba(0,0,0,0.13);
+box-shadow: 4px 0px 98px -31px rgba(0,0,0,0.13);
+}
+.card-product img{
+    height: 200px;
+    max-width: 200px!important;
 }
