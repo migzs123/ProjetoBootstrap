@@ -1,0 +1,15 @@
+.head{
+    text-decoration: none!important;
+    color:white!important;
+    border: none !important;
+    background-color: rgb(113, 89, 193);
+}
+.head:hover{
+    text-decoration: none!important;
+    color:rgb(145, 145, 145)!important;
+    border: none;
+}
+.head:visited
+{
+    border: none;
+}

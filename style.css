@@ -15,6 +15,7 @@ body{
 }
 .bg-primario{
     background-color:rgb(113, 89, 193)!important;
+
 }
 .bold{
     font-weight: bolder!important;
@@ -31,19 +32,20 @@ body{
     box-shadow: rgb(113, 89, 193) 0.5px 0.3px 0.5px 0.2px;
     
 }
-button
+.button
 {
-    border:0px;
-    background-color: rgb(113, 89, 193);
-    padding: 4px 10px;
+    border:0px!important;
+    background-color: rgb(113, 89, 193)!important;
+    padding: 4px 10px!important;
     border-radius: 5px!important;
-    color: white;
+    color: white!important;
+    text-decoration: none!important;
 }
-button:hover
+.button:hover
 {
     border:0px;
-    background-color: rgb(84, 66, 143);
-    padding: 4px 10px;
+    background-color: rgb(84, 66, 143)!important;
+    padding: 4px 10px!important;
     border-radius: 5px!important;
     color: white;
 }
