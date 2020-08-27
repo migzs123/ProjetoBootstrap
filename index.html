@@ -6,7 +6,7 @@
     <title>ORDER</title>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
     <script src="https://kit.fontawesome.com/be7e69b978.js" crossorigin="anonymous"></script>
   </head>
 <body >
@@ -33,15 +33,50 @@
         </div>
       </nav>
 
-      <div class="jumbotron jumbotron-fluid" id="jumbo">
-        <div class="container">
-          <h1 class="display-4 bold">Cadastre-se aqui</h1>
-          <p class="lead">É fácil e rápido</p>
-          <a href="login.html"><button class=' button largesize' href="#">Cadastro</button></a> 
+      <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="jumbotron jumbotron-fluid mt-5" id="jumbo">
+              <div class="container">
+                <h1 class="display-4 bold">Cadastre-se aqui</h1>
+                <p class="lead">É fácil e rápido</p>
+                <a href="login.html"><button class=' button largesize' href="#">Cadastro</button></a> 
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="jumbotron jumbotron-fluid mt-5 jumbo-carousel chima" id="jumbo">
+              <div class="container">
+                <h2 class="m-5 text-white">Chimarrão do bom</h2>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="jumbotron jumbotron-fluid mt-5 jumbo-carousel pacoca" id="jumbo">
+              <div class="container">
+                <h2 class="m-5 text-white">Paçocona top</h2>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="jumbotron jumbotron-fluid mt-5 jumbo-carousel berimbau" id="jumbo">
+              <div class="container">
+                <h2 class="m-5 text-white">Berimbau daora</h2>
+              </div>
+            </div>
+          </div>
         </div>
+        <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
       </div>
 
-      <section class="products container">
+      <section class="products container mt-5">
         <h1 class="purple">Conheça nossos produtos:</h1>
         <div class="container-fluid mt-5 justify-content-between row">
 
@@ -71,13 +106,14 @@
               <button class="buyButton"><i class="fab fa-whatsapp" ></i>  Comprar agora</button>
             </div>
           </div>
-
         </div>
       </section>
-      
 
-    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+      
+      
+      
+      <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+      <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
 </body>
 </html>

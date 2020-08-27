@@ -87,3 +87,18 @@ body{
 .buyButton:hover{
     opacity: 0.7;
 }
+
+.berimbau{
+    background-image: url('./assets/Images/berimbau.jpg');
+}
+.pacoca{
+    background-image: url('./assets/Images/paçoca.jpeg');
+}
+.chima{
+    background-image: url('./assets/Images/mate.jpg');
+}
+.jumbo-carousel{
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
