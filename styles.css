@@ -1,6 +1,6 @@
-@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Open+Sans:wght@400;600&display=swap');
 body{
-    font-family: 'Montserrat';
+    
     padding: 0;
 }
 
@@ -33,6 +33,14 @@ body{
     box-shadow: rgb(113, 89, 193) 0.5px 0.3px 0.5px 0.2px;
     
 }
+.title{
+    font-family:  'Montserrat', sans-serif;
+}
+.body{
+    font-family: 'Open Sans', sans-serif;
+}
+
+
 .button
 {
     border:0px!important;
@@ -101,4 +109,62 @@ body{
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+}
+.footer{
+    background-color:rgb(113, 89, 193);
+    color: #fff;
+    padding: 10px;
+    margin-top: 10px;
+}
+.footer-title{
+    font-weight: 700;
+    font-size: 30px;
+    
+}
+hr{
+    border-color: #fff !important;
+}
+#follow ul li a{
+    font-size: 20px;
+    text-decoration: none;
+    color: #fff;
+    transition: color 0.2s;
+}
+#follow ul li a:hover{
+    color: rgba(255, 255, 255, 0.774);
+}
+.footer-list{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+}
+.footer-list .footer-list-item{
+    margin: 0px 90px 0 0px;
+    
+}
+.footer-list .footer-list-item h5{
+    margin-bottom: 10px;
+
+}
+i{
+    padding-right: 10px;
+}
+.footer-list .footer-list-item button{
+    background-color: rgb(78, 58, 146);
+    color:#fff!important;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    transition: opacity 0.2s;
+    width: 70%;
+    margin-top: 10px;
+}
+.footer-list .footer-list-item button:hover{
+    opacity: 0.7;
+}
+.footer-list .footer-list-item input{
+    background-color: #fff;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    width: 70%;
 }
